@@ -19,7 +19,7 @@
 /*main styles*/
 
 header{
-    background-color: #c26363;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -27,7 +27,7 @@ header{
 
 nav {
     max-width: 1600px;
-    border: 1px solid black;
+    border: none;
     margin: 0px auto;
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -73,3 +73,124 @@ nav .btn button {
     line-height: 24px;
     cursor: pointer;
 }
+
+#hero{
+    background-image: url('/assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background position: center;
+    border: none;
+    width:100%;
+    padding: 70px 120px 134px 120px;
+}
+
+#hero .hero-content .btn.early-access button{
+    background-color: #ffffff;
+    color: #276941;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    padding : 8px 12px 8px 12px;
+    border-radius: 100px;
+    border: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;    
+}
+
+#hero .hero-content h1.white {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #ffffff;
+    max-width: 770px;
+    max-height: 168px;
+    text-align: center;
+    font-style: bold;
+}
+#hero .hero-content h1.green {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #30B868;
+    max-width: 770px;
+    max-height: 168px;
+    text-align: center;
+    font-style: bold;
+}
+
+#hero .hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    max-width: 1360px;
+    max-height: 60px;
+    text-align: center;
+    
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: nowrap;
+}
+
+#hero .hero-buttons .btn {
+    display: block;
+    margin: 0;  
+}
+
+#hero .hero-content .btn.StartBuilding button{
+    background-color: #469165;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; 
+    white-space: nowrap; 
+}
+#hero .hero-content .btn.SeeHowItWorks button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+#hero .btn.SeeHowItWorks button img{
+    
+    width: 26px;
+    height: 26px;
+
+    object-fit: contain;
+
+}
+#hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+
