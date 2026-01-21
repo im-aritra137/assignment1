@@ -194,7 +194,7 @@ nav .btn button {
 }
 
 #features-section{
-    height: 1600px;
+    /* height: 1600px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -281,3 +281,58 @@ nav .btn button {
     color: #627382;
     text-align: center;
 }
+
+#solution-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    gap: 40px;
+    background-color: #ffffff;
+}
+#solution-section .solution-image{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 0px;
+}
+#solution-section .solution-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 16px;
+    padding: 102px 120px 102px 60px;
+}
+
+#solution-section .solution-content .soln {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    max-width: 700px;
+    color: #30B868;
+}
+#solution-section .solution-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    max-width: 700px;
+    max-height: 116px;
+    text-align: left;
+}
+#solution-section .solution-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    max-width: 700px;
+}
+#solution-section .solution-content h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    
+}
+
+
