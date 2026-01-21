@@ -193,4 +193,90 @@ nav .btn button {
     margin-bottom: 40px;
 }
 
+#features-section{
+    height: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 120px 120 120px;
+    gap: 16px;
+    background-color: #fbfbfb;
+}
+#features-section .punchline{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 120px;
+    text-align: center;
+    gap: 16px;
+    margin: 0 auto;
+}
 
+#features-section .punchline h1 {
+    size: 48px;
+    weight: 700;
+    padding : 80px 120px 0px 120px;
+    line-height: 100%;
+    display: inline-flex;
+    text-align: center;
+    gap: 16px;
+    margin: 0 auto;
+    color: #001931;
+    
+}
+#features-section .punchline p {
+    size: 16px;
+    weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
+    padding-bottom: 44px;   
+}
+#features-section .features-card{
+    display: flex;
+    flex direction: row;
+    gap: 24px;
+    justify-content: center;
+    padding: 0px 120px;
+    overflow: hidden;
+}
+
+#features-section .features-card .card {
+    background-color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    padding: 40px 20px;
+    flex: 1; 
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box; 
+    
+}
+
+
+#features-section .features-card img{
+    width: 64px;
+    height: 64px;
+    background-color: #F95555 !important;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+#features-section .features-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#features-section .features-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    text-align: center;
+}
