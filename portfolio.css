@@ -75,7 +75,7 @@ nav .btn button {
 }
 
 #hero{
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('./assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
